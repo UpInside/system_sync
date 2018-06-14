@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #FFF;
+}
+
+.radius{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.message{
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.success{
+    background-color: forestgreen;
+    color: #FFFFFF;
+}
+
+.error{
+    background-color: crimson;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 100%;
+    display: block;
+}
+
+.content{
+    width: 96%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.main_header{
+    color: #8D99AE;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main_panel{
+    background: #EDF2F4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main_panel h2{
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #2B2D42;
+    border-bottom: 1px solid #8D99AE;
+}
+
+.main_panel table {
+    background-color: #FFF;
+    padding: 20px;
+    width: 100%;
+}
+
+.main_panel table a {
+    color: #2B2D42;
+    text-decoration: none;
+}
+
+.main_panel table a:hover{
+    text-decoration: underline;
+}
+
+.main_panel_notes_list{
+    margin-bottom: 20px;
+}
+
+.main_panel_notes_list article{
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    color: #2B2D42;
+    margin-bottom: 20px;
+}
+
+.main_panel_notes_list article p.date{
+    font-size: 1em;
+    border-bottom: 1px solid #EDF2F4;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+
+.form_os{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #2B2D42;
+}
+
+.form_os .form_os_row{
+    flex-basis: 100%;
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_os .form_os_row > input, .form_os .form_os_row > select, .form_os .form_os_row > textarea {
+    flex-basis: 100%;
+    font-size: 1.1em;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.form_os .form_os_row_reverse {
+    flex-basis: 100%;
+    text-align: right;
+}
+
+.form_os .form_os_row_reverse > button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8D99AE;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+.form_os .form_os_row_reverse > button:hover{
+    background-color: #2B2D42;
+}
+
+.main_footer{
+    width: 100%;
+    text-align: center;
+}
+
+.main_footer a {
+    text-decoration: none;
+    color: #2B2D42;
+}
+
+.main_footer a:hover {
+    text-decoration: underline;
+}
